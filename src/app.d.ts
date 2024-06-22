@@ -10,4 +10,13 @@ declare global {
 	}
 }
 
-export {};
+type Project = {
+	title: string;
+	description: string;
+	imageSrc: string;
+	link: string;
+	githubLink: string;
+	technologies: string[];
+}
+
+export { Project };
