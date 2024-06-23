@@ -35,7 +35,7 @@
       ],
       imageSrc: 'images/androbar.webp',
       link: '/',
-      githubLink: 'https://github.com/Androbar/private-chat',
+      githubLink: 'https://github.com/Androbar/androbar-page',
       technologies: ['Svelte', 'Typescript', 'SvelteUI']
     }
   ];
