@@ -13,7 +13,7 @@
         'The platform also includes a secure admin portal where publishers can manage property listings, update or delete entries, and view user comments and inquiries. Built with Next.js for the frontend and PostgreSQL for the backend, this application ensures a seamless and efficient user experience, both for property seekers and publishers.',
       ],
       imageSrc: 'images/realestate-preview.webp',
-      link: '#',
+      link: 'https://real-estate.androb.ar',
       githubLink: 'https://github.com/Androbar/real-estate-manager',
       technologies: ['React', 'Typescript', 'Next.js', 'Chakra ui', 'Postgres', 'Prisma', 'React hook forms', 'React Query']
     },
@@ -24,7 +24,7 @@
         'To manage online users, passwords, and messages, the application connects to a Redis database. The main technologies used in this project are Next.js for the frontend, Redis for the database, and Socket.IO for real-time communication.'
       ],
       imageSrc: 'images/private-chat.webp',
-      link: '#',
+      link: 'https://private-chat.androb.ar',
       githubLink: 'https://github.com/Androbar/private-chat',
       technologies: ['React', 'Typescript', 'Next.js', 'Chakra Ui', 'Redis', 'Socket.io', 'Docker compose']
     },
@@ -34,7 +34,7 @@
         'This project is a simple static page created with Svelte and SvelteUI, designed to showcase my various web development projects. The page provides a minimalistic interface to explore and learn more about each project, demonstrating my skills and interests in modern web technologies.'
       ],
       imageSrc: 'images/androbar.webp',
-      link: '/',
+      link: 'https://androb.ar',
       githubLink: 'https://github.com/Androbar/androbar-page',
       technologies: ['Svelte', 'Typescript', 'SvelteUI']
     }
