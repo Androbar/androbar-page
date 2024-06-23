@@ -12,7 +12,7 @@ declare global {
 
 type Project = {
 	title: string;
-	description: string;
+	description: string[];
 	imageSrc: string;
 	link: string;
 	githubLink: string;

@@ -8,7 +8,10 @@
   const projects: Project[] = [
     {
       title: 'Simple Real estate web',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus egestas elit at finibus lacinia. Proin accumsan, felis a ultrices feugiat, dui ante sagittis elit, quis convallis sem augue eget neque. Mauris elementum, sapien eu venenatis efficitur, urna nisl viverra elit, nec fringilla enim eros eget dolor. Donec ac lorem nec ex ullamcorper lobortis id at justo. Sed sollicitudin gravida orci sit amet pellentesque. Donec quis leo nec lorem mattis facilisis sed eget nisl. Maecenas non elit ornare, finibus tortor sed, pharetra justo. Nam faucibus fringilla viverra. Integer fermentum nisi sit amet nibh commodo, quis ornare metus tincidunt. Sed maximus finibus magna.',
+      description: [
+        'This project is a web application designed to showcase properties available for rent or sale, providing users with a detailed filtering system to easily find their desired properties. Each listing features comprehensive descriptions, images, and a contact form for inquiries.',
+        'The platform also includes a secure admin portal where publishers can manage property listings, update or delete entries, and view user comments and inquiries. Built with Next.js for the frontend and PostgreSQL for the backend, this application ensures a seamless and efficient user experience, both for property seekers and publishers.',
+      ],
       imageSrc: 'images/realestate-preview.webp',
       link: '#',
       githubLink: 'https://github.com/Androbar/real-estate-manager',
@@ -16,11 +19,24 @@
     },
     {
       title: 'Private chat',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus egestas elit at finibus lacinia. Proin accumsan, felis a ultrices feugiat, dui ante sagittis elit, quis convallis sem augue eget neque. Mauris elementum, sapien eu venenatis efficitur, urna nisl viverra elit, nec fringilla enim eros eget dolor. Donec ac lorem nec ex ullamcorper lobortis id at justo. Sed sollicitudin gravida orci sit amet pellentesque. Donec quis leo nec lorem mattis facilisis sed eget nisl. Maecenas non elit ornare, finibus tortor sed, pharetra justo. Nam faucibus fringilla viverra. Integer fermentum nisi sit amet nibh commodo, quis ornare metus tincidunt. Sed maximus finibus magna.',
+      description: [
+        'This project is a simple and secure chat application where users can create chat rooms protected by passwords. Users can share the chat link and password with others, allowing them to join with their desired usernames. The application displays a list of online users and indicates who is currently typing, enhancing the chat experience.',
+        'To manage online users, passwords, and messages, the application connects to a Redis database. The main technologies used in this project are Next.js for the frontend, Redis for the database, and Socket.IO for real-time communication.'
+      ],
       imageSrc: 'images/private-chat.webp',
       link: '#',
       githubLink: 'https://github.com/Androbar/private-chat',
       technologies: ['React', 'Typescript', 'Next.js', 'Chakra Ui', 'Redis', 'Socket.io', 'Docker compose']
+    },
+    {
+      title: 'Androb.ar',
+      description: [
+        'This project is a simple static page created with Svelte and SvelteUI, designed to showcase my various web development projects. The page provides a minimalistic interface to explore and learn more about each project, demonstrating my skills and interests in modern web technologies.'
+      ],
+      imageSrc: 'images/androbar.webp',
+      link: '/',
+      githubLink: 'https://github.com/Androbar/private-chat',
+      technologies: ['Svelte', 'Typescript', 'SvelteUI']
     }
   ];
 </script>
