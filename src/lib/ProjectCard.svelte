@@ -35,10 +35,10 @@
           </Box>
       </Box>
     <Stack gap={4}>
-        <Button variant='light' color='green' fullSize  target="_blank" href={project.link} size="lg">
+        <Button color='green' fullSize  target="_blank" href={project.link} size="lg">
           Open Project
         </Button>
-        <Button variant='light' color='blue' fullSize target="_blank" href={project.githubLink} size="lg">
+        <Button color='blue' fullSize target="_blank" href={project.githubLink} size="lg">
           <Icon src={AiFillGithub} slot="leftIcon" />
           Github Link
         </Button>
