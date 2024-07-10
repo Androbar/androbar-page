@@ -1,8 +1,8 @@
 <script lang="ts">
   import { ProjectCard } from '$lib';
-	import { Anchor, Container, Box, Divider, Flex, Group, Stack, Text, ThemeIcon, Title, SimpleGrid } from '@svelteuidev/core';
+	import { Anchor, Container, Box, Divider, Group, Stack, Text, ThemeIcon, Title, SimpleGrid } from '@svelteuidev/core';
 	import type { Project } from '../app';
-  import { AiFillGithub, AiFillLinkedin, AiFillPhone, AiFillMail } from "svelte-icons-pack/ai";
+  import { AiFillGithub, AiFillLinkedin, AiFillMail } from "svelte-icons-pack/ai";
   import { Icon } from 'svelte-icons-pack';
 
   const projects: Project[] = [
@@ -37,6 +37,15 @@
       link: 'https://androb.ar',
       githubLink: 'https://github.com/Androbar/androbar-page',
       technologies: ['Svelte', 'Typescript', 'SvelteUI']
+    },
+    {
+      title: 'Clock overlay',
+      description: [
+        "The Overlay Clock App is a practical and customizable timekeeping tool that stays on top of all windows, ensuring you always have a clear view of the current time and date. Built with Svelte and Tauri, it allows you to personalize the clock's appearance by choosing from various fonts, background and font colors, and time and date formats. The clock can be easily hidden or shown using the Ctrl+Shift+H shortcut, making it a convenient addition to any desktop setup."
+      ],
+      imageSrc: 'images/clock-overlay-2.webp',
+      githubLink: 'https://github.com/Androbar/overlay-clock',
+      technologies: ['Svelte', 'Typescript', 'Tauri', 'Tailwind']
     }
   ];
 </script>
