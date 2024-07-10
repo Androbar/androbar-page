@@ -14,7 +14,7 @@ type Project = {
 	title: string;
 	description: string[];
 	imageSrc: string;
-	link: string;
+	link?: string;
 	githubLink: string;
 	technologies: string[];
 }

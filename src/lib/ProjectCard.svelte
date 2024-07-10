@@ -14,7 +14,8 @@
             src={project.imageSrc}
             height={260}
             alt={project.title}
-              usePlaceholder
+            usePlaceholder
+            fit="contain"
           />
         </Card.Section>
         <Group css={{marginBottom: "10px"}}>
@@ -35,9 +36,11 @@
           </Box>
       </Box>
     <Stack gap={4}>
-        <Button color='green' fullSize  target="_blank" href={project.link} size="lg">
-          Open Project
-        </Button>
+        {#if project.link}
+          <Button color='green' fullSize  target="_blank" href={project.link} size="lg">
+            Open Project
+          </Button>
+        {/if}
         <Button color='blue' fullSize target="_blank" href={project.githubLink} size="lg">
           <Icon src={AiFillGithub} slot="leftIcon" />
           Github Link
